@@ -1,0 +1,33 @@
+/* 
+control+; para inserir comentarios
+reset - limpando navegador( manda ignorar el comportamiento inicial)
+*/
+html, body{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+/* Aplicar para todos */
+*{
+    box-sizing: border-box;
+}
+
+.topo{
+    width:100%;
+    height: 56px;
+    border-bottom: solid 1px #ccc;
+}
+
+.player{
+    width:80%;
+    height: 95vh;
+    float: left;
+    border-right: solid 1px  #ccc;
+}
+
+.playlist{
+    width:20%;
+    float: right;
+    height: 95vh;
+   /* border-left: solid 1px rgb(32, 168, 77);*/
+}

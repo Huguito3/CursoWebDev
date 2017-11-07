@@ -1,0 +1,35 @@
+<!doctype html>
+<html> 
+    <!--ctrl +N (arquivo novo)/ ctrl + shift + P (language, setea lenguaje) -->
+    <!-- 1- todo comando em html se chama tag, 2- o nome do que tem "dentro da tag" e atributos(name e content sao atributos de meta)-->
+    <head>
+        <!--meta tem duas infomacoes(name e content), mas tem uma excepção, o charset que so tem uma informacao-->
+        <!--Corrigir problemas de acentuação, iso8859-1( isto e versão antiga), deve ir utf8-->
+        <meta charset="UTF-8">
+        <!--meta que informa nome de autor-->
+        <meta name="author" content="Hugo">
+        <!--meta que informa o que via aparecer na busqueda da google-->
+        <meta name="description" content="vai aparecer no google">
+        <!--meta que informa que o site e responsio-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso html, CSS3 e Javascript</title>
+        <!--tag link par aimportar CSS-->
+        <link rel="stylesheet" href="css/estilo-01.css">
+       
+    </head>
+    <body>
+        <!-- o atributo id e unico(evitar usar porque no es reutilizable), o atributo class pode ser repetido-->
+        <header class="topo">
+
+        </header>
+        <div class="container">
+            <div class="player">Player Full</div>
+            <div class="playlist">Playlist</div>
+        </div>
+        <footer>
+            
+        </footer>
+        <!--tag script para importar o javascript. Antigmente e normal te r a tag no head.. hj em dia o melhor e colocar a tag no final da tag body-->
+        <script src="js/script-01.js"></script>
+    </body>
+</html>
